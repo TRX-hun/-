@@ -3120,7 +3120,7 @@ end
 
 local function BuildMainUI()
 
-    local Window = redzlib:MakeWindow({ Name="FR HUB", SubTitle="صنع احمد  FR" })
+    local Window = redzlib:MakeWindow({ Name="TRX HUB", SubTitle="صنع  TRX " })
     
 
 
@@ -3319,7 +3319,7 @@ local function BuildMainUI()
     local TrollTab   = Window:MakeTab({Title="🚌 التخريب",    Icon="car"})
     local SpyTab     = Window:MakeTab({Title="👁️ المراقبة",   Icon="eye"})
     local SkinTab    = Window:MakeTab({Title="👗 السكنات",    Icon="shirt"})
-    local FunTab     = Window:MakeTab({Title="🎮 المتعة",      Icon="gamepad2"})
+    local FunTab     = Window:MakeTab({Title="🎮 الاستهداف",      Icon="gamepad2"}
     local FlingTab   = Window:MakeTab({Title="💥 الفلنق",     Icon="zap"})
     local ProtectTab = Window:MakeTab({Title="🛡️ الحماية",    Icon="shield"})
     local KillTab    = Window:MakeTab({Title="☠️ القتل",      Icon="skull"})
@@ -3896,7 +3896,7 @@ local function enableShader()
 end
 
 local function disableShader()
-    if not shaderEnabled then return end
+    if not shaderEnabled then return end 
     shaderEnabled=false
     stopAnimations()
     restoreOriginals()
@@ -4462,7 +4462,7 @@ end)
     })
 
 
-    InfoTab:AddParagraph({"مرحباً في TRX HUB 💚","السكربت الخاص بالمطورين"})
+    InfoTab:AddParagraph({"مرحباً في  للمعلوميه صانع السكربت حاتم وليس احمد وهو بس واحد TRX HUB 💚","السكربت الخاص بالمطورين"})
     InfoTab:AddButton({
         Name="📋  زر الانفو",
         Callback=function()
