@@ -12,7 +12,7 @@ local PlayerMouse = Player:GetMouse()
 local redzlib = {
 	Themes = {
 		Darker = {
-			["TRX  Hub 1"] = ColorSequence.new({
+			["TRX  للمعلوميه صانع السكربت مو احمد صانع السكربت حاتم Hub 1"] = ColorSequence.new({
 				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(5, 15, 5)),
 				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(12, 28, 12)),
 				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(5, 15, 5))
@@ -955,7 +955,7 @@ local SetProps, SetChildren, InsertTheme, Create do
 		end
 	end
 	
-	pcall(Save, "FR_HUB.json")
+	pcall(Save, "TRX_HUB.json")
 end
 
 local Funcs = {} do
@@ -5164,7 +5164,7 @@ ShowIntro(function()
             
             
             local nameSet, colorSet = pcall(function()
-                local argsName = {"RolePlayName", "FR HUB IS HERE"}
+                local argsName = {"RolePlayName", "TRX HUB IS HERE"}
                 game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(argsName))
                 
                 local argsColor = {"PickingRPNameColor", Color3.new(0, 0.78, 0.23)} 
