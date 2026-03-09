@@ -1112,11 +1112,11 @@ local GetFlag, SetFlag, CheckFlag do
 end
 
 local ScreenGui = Create("ScreenGui", CoreGui, {
-	Name = "FR HUB",
+	Name = "TRX تعاون مع الدارك HUB",
 }, {
 	Create("UIScale", {
-		Scale = UIScale,
-		Name = "Scale"
+		Scale =TRX,
+		Name = "TRX"
 	})
 })
 
@@ -3132,13 +3132,13 @@ local function BuildMainUI()
 
     
     local rainbowList = {
-        {text = "FR HUB", color = Color3.fromRGB(255, 0, 0)},
-        {text = "FR HUB", color = Color3.fromRGB(255, 165, 0)},
-        {text = "FR HUB", color = Color3.fromRGB(255, 255, 0)},
-        {text = "FR HUB", color = Color3.fromRGB(0, 255, 0)},
-        {text = "FR HUB", color = Color3.fromRGB(0, 255, 255)},
-        {text = "FR HUB", color = Color3.fromRGB(0, 0, 255)},
-        {text = "FR HUB", color = Color3.fromRGB(128, 0, 128)}
+        {text = "TRX HUB", color = Color3.fromRGB(255, 0, 0)},
+        {text = "TRX HUB", color = Color3.fromRGB(255, 165, 0)},
+        {text = "TRX HUB", color = Color3.fromRGB(255, 255, 0)},
+        {text = "TRX HUB", color = Color3.fromRGB(0, 255, 0)},
+        {text = "TRX HUB", color = Color3.fromRGB(0, 255, 255)},
+        {text = "TRX HUB", color = Color3.fromRGB(0, 0, 255)},
+        {text = "TRX HUB", color = Color3.fromRGB(128, 0, 128)}
     }
 
     
@@ -3207,7 +3207,7 @@ local function BuildMainUI()
     end
 
 
-    local sgHUD=Instance.new("ScreenGui"); sgHUD.Name="FR_HUB_HUD"; sgHUD.ResetOnSpawn=false; sgHUD.DisplayOrder=50; sgHUD.ZIndexBehavior=Enum.ZIndexBehavior.Sibling; sgHUD.Parent=CoreGui
+    local sgHUD=Instance.new("ScreenGui"); sgHUD.Name="TRX_HUB_HUD"; sgHUD.ResetOnSpawn=false; sgHUD.DisplayOrder=50; sgHUD.ZIndexBehavior=Enum.ZIndexBehavior.Sibling; sgHUD.Parent=CoreGui
 
     local rainbowOuter=Instance.new("Frame")
     rainbowOuter.Size=UDim2.new(0,164,0,52)
@@ -3981,7 +3981,7 @@ presetLabel.BackgroundTransparency = 1
 presetLabel.Size = UDim2.new(0.3,0,1,0)
 presetLabel.Position = UDim2.new(0,0,0,0)
 presetLabel.Font = Enum.Font.GothamBold
-presetLabel.Text = "لو ضغطت علي زر شغل بيشتغل! ولو ضغطت مره تانيه بيفصل! "
+presetLabel.Text = "لو ضغطت علي زر شغل بيشتغل! ولو ضغطت مره ثانيه بيفصل! "
 presetLabel.TextColor3 = Color3.fromRGB(200,200,200)
 presetLabel.TextSize = 7.8
 presetLabel.TextXAlignment = Enum.TextXAlignment.Left
@@ -4299,8 +4299,8 @@ end)
     
 
     
-    FaresTab:AddSection("جرب دي😉")
-    FaresTab:AddParagraph({"ملاحظة مهمة", "الـ Noclip هيفيدك جدا في اختراق البيوت لما تكون عايز تتجسس😂"})
+    FaresTab:AddSection("جرب ذي😉")
+    FaresTab:AddParagraph({"ملاحظة مهمة", "الـ Noclip بيفيدك جدا في اختراق البيوت لما تكون عايز تتجسس😂"})
     FaresTab:AddToggle({
         Name="🚀 Noclip (اختراق الجدران)",
         Default=false,
@@ -4310,7 +4310,7 @@ end)
                 
 
                 
-                local flyGui = Instance.new("ScreenGui", PlayerGui)
+                local flyGui = Instance.new("ScreenGui", PlayerGui) 
                 flyGui.Name = "NoclipFlyGUI"
                 
                 local flyUpButton = Instance.new("TextButton", flyGui)
@@ -4474,7 +4474,7 @@ end)
         end
     })
     InfoTab:AddSection("معلومات السكربت")
-    InfoTab:AddParagraph({"الإصدار","FR HUB v2.0  |  by احمد &  FR"})
+    InfoTab:AddParagraph({"الإصدار","TRX HUB v2.0  |  by TRX &  FR"})
     InfoTab:AddSection("بطاقة اللاعب")
     local uid   = tostring(LocalPlayer.UserId)
     local uname = LocalPlayer.Name
@@ -4497,15 +4497,15 @@ end)
     })
     InfoTab:AddSection("🎭 اسم فوق الراس (RP Name)")
     InfoTab:AddButton({
-        Name="✅ تفعيل اسم فوق الراس FR SCRIPT",
+        Name="✅ تفعيل اسم فوق الراس TRX SCRIPT",
         Callback=function()
             pcall(function()
-                local argsName = {"RolePlayName","- FR SCRIPT IS NOW -"}
+                local argsName = {"RolePlayName","- TRX SCRIPT IS NOW -"}
                 game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(argsName))
                 local argsColor = {"PickingRPNameColor", Color3.new(0.7556330561637878, 0, 0.00002125852188328281)}
                 game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eColo1r"):FireServer(unpack(argsColor))
             end)
-            Notify("RP Name","تم تفعيل اسم فوق الراس: - FR SCRIPT IS NOW -",3)
+            Notify("RP Name","تم تفعيل اسم فوق الراس: - TRX SCRIPT IS NOW -",3)
         end
     })
     local rpNameInput=""
@@ -4817,7 +4817,7 @@ end)
         end,
     })
     FunTab:AddToggle({
-        Name="اغتصاب", Default=false,
+        Name="اغتصاب ", Default=false,
         Callback=function(value)
             if value and not foundPlayer then Notify("خطأ","اختر هدفاً أولاً!",3); return end
             bangEnabled=value
