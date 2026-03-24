@@ -658,8 +658,8 @@ else
             local vu166 = GetCuff()
             if not vu166 then
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "System VR7",
-                    Text = "\239\191\189\216\167\216\178\217\133 \217\138\217\131\217\136\217\134 \217\133\216\185\217\131 \217\131\217\132\216\168\216\180\216\169",
+                    Title = "System TRX",
+                    Text = "",
                     Duration = 5
                 })
                 return
@@ -980,7 +980,7 @@ else
     getgenv().VR7.Parent = gethui()
     getgenv().VR7.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
     vu221.Name = "Background"
-    vu221.Parent = getgenv().VR7
+    vu221.Parent = getgenv().TRX
     vu221.AnchorPoint = Vector2.new(0.5, 0.5)
     vu221.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
     vu221.BorderColor3 = Color3.fromRGB(vu31, vu32, vu33)
@@ -1029,7 +1029,7 @@ else
     vu225.Position = UDim2.new(0, 0, 0, 25)
     vu225.Size = UDim2.new(0, 105, 0, 30)
     vu225.Font = Enum.Font.Oswald
-    vu225.Text = "\239\191\189\217\132\217\130\216\167\216\166\217\133\216\169 \216\167\217\132\216\177\216\166\217\138\216\179\217\138\216\169 | Home"
+    
     vu225.TextColor3 = Color3.fromRGB(0, 0, 0)
     vu225.TextScaled = true
     vu225.TextSize = 14
@@ -1043,7 +1043,7 @@ else
     vu226.Position = UDim2.new(0, 0, 0, 65)
     vu226.Size = UDim2.new(0, 105, 0, 30)
     vu226.Font = Enum.Font.Oswald
-    vu226.Text = "\239\191\189\217\132\216\170\216\174\216\177\217\138\216\168 | Game "
+    vu226.Text = ""
     vu226.TextColor3 = Color3.fromRGB(0, 0, 0)
     vu226.TextScaled = true
     vu226.TextSize = 14
@@ -1056,8 +1056,7 @@ else
     vu227.BorderSizePixel = 0
     vu227.Position = UDim2.new(0, 0, 0, 105)
     vu227.Size = UDim2.new(0, 105, 0, 30)
-    vu227.Font = Enum.Font.Oswald
-    vu227.Text = "\239\191\189\217\132\216\167\216\185\216\168 | Character"
+    vu227.Font = ""
     vu227.TextColor3 = Color3.fromRGB(0, 0, 0)
     vu227.TextScaled = true
     vu227.TextSize = 14
@@ -1071,7 +1070,7 @@ else
     vu228.Position = UDim2.new(0, 0, 0, 145)
     vu228.Size = UDim2.new(0, 105, 0, 30)
     vu228.Font = Enum.Font.Oswald
-    vu228.Text = " \216\167\216\179\216\170\217\135\216\175\216\167\217\129 | Target"
+    vu228.Text = ""
     vu228.TextColor3 = Color3.fromRGB(0, 0, 0)
     vu228.TextScaled = true
     vu228.TextSize = 14
@@ -1085,7 +1084,7 @@ else
     vu229.Position = UDim2.new(0, 0, 0, 185)
     vu229.Size = UDim2.new(0, 105, 0, 30)
     vu229.Font = Enum.Font.Oswald
-    vu229.Text = "\239\191\189\217\134\217\133\217\138\216\180\217\134\216\167\216\170 | Anims"
+    vu229| Anims"
     vu229.TextColor3 = Color3.fromRGB(0, 0, 0)
     vu229.TextScaled = true
     vu229.TextSize = 14
@@ -1099,7 +1098,7 @@ else
     vu230.Position = UDim2.new(0, 0, 0, 225)
     vu230.Size = UDim2.new(0, 105, 0, 30)
     vu230.Font = Enum.Font.Oswald
-    vu230.Text = "\239\191\189\216\174\216\177\217\137 | Misc"
+    vu230.Text = "| Misc"
     vu230.TextColor3 = Color3.fromRGB(0, 0, 0)
     vu230.TextScaled = true
     vu230.TextSize = 14
@@ -1113,7 +1112,7 @@ else
     vu231.Position = UDim2.new(0, 0, 0, 265)
     vu231.Size = UDim2.new(0, 105, 0, 30)
     vu231.Font = Enum.Font.Oswald
-    vu231.Text = "\239\191\189\217\132\216\173\217\130\217\136\217\130 | Credits"
+    vu231.Text = " | Credits"
     vu231.TextColor3 = Color3.fromRGB(0, 0, 0)
     vu231.TextScaled = true
     vu231.TextSize = 14
@@ -1139,7 +1138,7 @@ else
     v233.Position = UDim2.new(0, 210, 0, 125)
     v233.Size = UDim2.new(0, 150, 0, 30)
     v233.Font = Enum.Font.Oswald
-    v233.Text = "\239\191\189\216\185\217\132\217\138\217\130 \216\167\217\132\216\180\216\167\216\170"
+    v233.Text = ""
     v233.TextColor3 = Color3.fromRGB(0, 0, 0)
     v233.TextScaled = true
     v233.TextSize = 14
@@ -1195,7 +1194,7 @@ else
     v234.Position = UDim2.new(0, 210, 0, 175)
     v234.Size = UDim2.new(0, 150, 0, 30)
     v234.Font = Enum.Font.Oswald
-    v234.Text = "\239\191\189\217\132\216\185\216\167\216\175\216\169 \216\167\217\132\216\179\216\177\217\138\216\169"
+    v234.Text = ""
     v234.TextColor3 = Color3.fromRGB(0, 0, 0)
     v234.TextScaled = true
     v234.TextSize = 14
@@ -1209,7 +1208,7 @@ else
     vu235.Position = UDim2.new(0, 25, 0, 125)
     vu235.Size = UDim2.new(0, 150, 0, 30)
     vu235.Font = Enum.Font.Oswald
-    vu235.Text = "\239\191\189\217\129\216\185\217\138\217\132 \216\179\216\168\216\167\217\133"
+    vu235.Text = ""
     vu235.TextColor3 = Color3.fromRGB(0, 0, 0)
     vu235.TextScaled = true
     vu235.TextSize = 14
@@ -1224,7 +1223,7 @@ else
     vu236.Size = UDim2.new(0, 275, 0, 40)
     vu236.Font = Enum.Font.Gotham
     vu236.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
-    vu236.PlaceholderText = "[Cmdbar] \216\174\216\167\217\134\216\169 \216\167\217\132\216\167\217\136\216\167\217\133\216\177"
+    vu236.PlaceholderText = "[Cmdbar] "
     vu236.Text = ""
     vu236.TextColor3 = Color3.fromRGB(20, 20, 20)
     vu236.TextSize = 16
@@ -1239,7 +1238,7 @@ else
     vu237.Size = UDim2.new(0, 275, 0, 40)
     vu237.Font = Enum.Font.Gotham
     vu237.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
-    vu237.PlaceholderText = "\239\191\189\217\132\216\167\217\133"
+    vu237.PlaceholderText = ""
     vu237.Text = ""
     vu237.TextColor3 = Color3.fromRGB(20, 20, 20)
     vu237.TextSize = 18
@@ -1275,11 +1274,11 @@ else
     vu241.Position = UDim2.new(0, 174, 0, 25)
     vu241.Size = UDim2.new(0, 200, 0, 100)
     vu241.Font = Enum.Font.SourceSans
-    local v342 = (# vu38.Name < # vu38.DisplayName and vu38.Name or vu38.DisplayName):sub(1, 9):lower()
+    local v342 = (# vu38.Name < # vu38.DisplayName and vu38.Name or vu38.DisplayName):sub(1, 9):
     if WhatTime() ~= "dark" then
-        vu241.Text = "\239\191\189\216\168\216\167\216\173 \216\167\217\132\217\134\217\136\216\177 " .. v342 .. "@\n\216\167\216\182\216\186\216\183 [B] \217\132\216\167\216\174\217\129\216\167\216\161 \216\167\217\132\217\136\216\167\216\172\217\135\216\169"
+        vu241.Text = ""
     else
-        vu241.Text = "\239\191\189\216\179\216\167\216\161 \216\167\217\132\217\134\217\136\216\177 " .. v342 .. "@\n\216\167\216\182\216\186\216\183 [B] \217\132\216\167\216\174\217\129\216\167\216\161 \216\167\217\132\217\136\216\167\216\172\217\135\216\169"
+        vu241.Text = " " .. v342 .. ""
     end
     vu241.TextColor3 = Color3.fromRGB(vu31, vu32, vu33)
     vu241.TextSize = 24
@@ -1301,7 +1300,7 @@ else
     v244.BorderSizePixel = 0
     v244.Size = UDim2.new(0, 350, 0, 150)
     v244.Font = Enum.Font.SourceSans
-    v244.Text = "\239\191\189\217\133\217\138\216\185 \216\167\217\132\216\173\217\130\217\136\217\130 \217\133\216\173\217\129\217\136\216\184\216\169 \217\132\216\179\217\138\216\177\217\129\216\177 VR7\n\216\167\217\132\217\133\216\183\217\136\216\177\217\138\217\134 \216\186\217\138\216\177 \217\133\216\179\216\164\217\136\217\132\217\138\217\134 \216\185\217\134 \216\179\217\136\216\161 \216\167\217\132\216\167\216\179\216\170\216\174\216\175\216\167\217\133.\n\n\217\134\216\170\217\133\217\134\217\137 \216\167\217\134 \217\138\216\185\216\172\216\168\217\131 \216\167\217\132\216\179\217\131\216\177\216\168\216\170."
+    v244.Text = ""
     v244.TextColor3 = Color3.fromRGB(vu31, vu32, vu33)
     v244.TextSize = 24
     v244.TextWrapped = true
@@ -1328,7 +1327,7 @@ else
     v246.Position = UDim2.new(0, 25, 0, 25)
     v246.Size = UDim2.new(0, 150, 0, 30)
     v246.Font = Enum.Font.Oswald
-    v246.Text = "Ws |\216\167\217\132\216\179\216\177\216\185\217\135"
+    v246.Text = "Ws l "
     v246.TextColor3 = Color3.fromRGB(0, 0, 0)
     v246.TextScaled = true
     v246.TextSize = 14
@@ -1360,7 +1359,7 @@ else
     v248.Position = UDim2.new(0, 210, 0, 225)
     v248.Size = UDim2.new(0, 150, 0, 30)
     v248.Font = Enum.Font.Oswald
-    v248.Text = "\239\191\189\216\178\216\167\217\132\217\135 \216\167\217\132\216\180\217\138\217\131 \216\168\217\136\217\138\217\134\216\170"
+    v248.Text = ""
     v248.TextColor3 = Color3.fromRGB(0, 0, 0)
     v248.TextScaled = true
     v248.TextSize = 14
@@ -1388,7 +1387,7 @@ else
     v250.Position = UDim2.new(0, 25, 0, 75)
     v250.Size = UDim2.new(0, 150, 0, 30)
     v250.Font = Enum.Font.Oswald
-    v250.Text = "\239\191\189\217\132\217\134\216\183 | Jump"
+    v250.Text = "| Jump"
     v250.TextColor3 = Color3.fromRGB(0, 0, 0)
     v250.TextScaled = true
     v250.TextSize = 14
@@ -1402,7 +1401,7 @@ else
     v251.Position = UDim2.new(0, 210, 0, 175)
     v251.Size = UDim2.new(0, 150, 0, 30)
     v251.Font = Enum.Font.Oswald
-    v251.Text = "\239\191\189\217\129\216\184 \216\167\217\132\216\180\217\138\217\131 \216\168\217\136\217\138\217\134\216\170"
+    v251.Text = ""
     v251.TextColor3 = Color3.fromRGB(0, 0, 0)
     v251.TextScaled = true
     v251.TextSize = 14
@@ -1416,7 +1415,7 @@ else
     vu252.Position = UDim2.new(0, 25, 0, 225)
     vu252.Size = UDim2.new(0, 150, 0, 30)
     vu252.Font = Enum.Font.Oswald
-    vu252.Text = "\239\191\189\217\136\217\131\217\132\217\138\216\168"
+    vu252.Text = ""
     vu252.TextColor3 = Color3.fromRGB(0, 0, 0)
     vu252.TextScaled = true
     vu252.TextSize = 14
@@ -1430,7 +1429,7 @@ else
     vu253.Position = UDim2.new(0, 25, 0, 275)
     vu253.Size = UDim2.new(0, 150, 0, 30)
     vu253.Font = Enum.Font.Oswald
-    vu253.Text = "\239\191\189\216\174\216\170\217\129\216\167\216\161"
+    vu253.Text = " "
     vu253.TextColor3 = Color3.fromRGB(0, 0, 0)
     vu253.TextScaled = true
     vu253.TextSize = 14
@@ -1444,7 +1443,7 @@ else
     vu255.Position = UDim2.new(0, 25, 0, 325)
     vu255.Size = UDim2.new(0, 150, 0, 30)
     vu255.Font = Enum.Font.Oswald
-    vu255.Text = "\239\191\189\217\129\217\132 \216\167\217\132\217\131\216\167\217\133\217\138\216\177\216\167"
+    vu255.Text = ""
     vu255.TextColor3 = Color3.fromRGB(0, 0, 0)
     vu255.TextScaled = true
     vu255.TextSize = 14
@@ -1458,7 +1457,7 @@ else
     v254.Position = UDim2.new(0, 210, 0, 325)
     v254.Size = UDim2.new(0, 150, 0, 30)
     v254.Font = Enum.Font.Oswald
-    v254.Text = "\239\191\189\217\138\216\179\216\168\217\136\217\134"
+    v254.Text = ""
     v254.TextColor3 = Color3.fromRGB(0, 0, 0)
     v254.TextScaled = true
     v254.TextSize = 14
@@ -1472,7 +1471,7 @@ else
     v256.Position = UDim2.new(0, 210, 0, 275)
     v256.Size = UDim2.new(0, 150, 0, 30)
     v256.Font = Enum.Font.Oswald
-    v256.Text = "\239\191\189\216\175\216\167\216\169 \216\167\217\132\216\167\217\134\216\170\217\130\216\167\217\132"
+    v256.Text = ""
     v256.TextColor3 = Color3.fromRGB(0, 0, 0)
     v256.TextScaled = true
     v256.TextSize = 14
@@ -1486,7 +1485,7 @@ else
     v257.Position = UDim2.new(0, 25, 0, 125)
     v257.Size = UDim2.new(0, 150, 0, 30)
     v257.Font = Enum.Font.Oswald
-    v257.Text = "\239\191\189\216\177\216\185\217\135 \216\167\217\132\216\183\217\138\216\177\216\167\217\134"
+    v257.Text = ""
     v257.TextColor3 = Color3.fromRGB(0, 0, 0)
     v257.TextScaled = true
     v257.TextSize = 14
@@ -1514,7 +1513,7 @@ else
     vu259.Position = UDim2.new(0, 25, 0, 175)
     vu259.Size = UDim2.new(0, 150, 0, 30)
     vu259.Font = Enum.Font.Oswald
-    vu259.Text = "\239\191\189\217\131\216\177\216\168\216\170 \216\183\217\138\216\177\216\167\217\134"
+    vu259.Text =""
     vu259.TextColor3 = Color3.fromRGB(0, 0, 0)
     vu259.TextScaled = true
     vu259.TextSize = 14
@@ -1585,7 +1584,7 @@ else
     vu266.Position = UDim2.new(0, 25, 0, 200)
     vu266.Size = UDim2.new(0, 150, 0, 30)
     vu266.Font = Enum.Font.Oswald
-    vu266.Text = "\239\191\189\216\186\216\170\216\181\216\168\217\131"
+    vu266.Text = ""
     vu266.TextColor3 = Color3.fromRGB(0, 0, 0)
     vu266.TextScaled = true
     vu266.TextSize = 14
@@ -1599,7 +1598,7 @@ else
     vu265.Position = UDim2.new(0, 210, 0, 150)
     vu265.Size = UDim2.new(0, 150, 0, 30)
     vu265.Font = Enum.Font.Oswald
-    vu265.Text = "\239\191\189\216\180\216\167\217\135\216\175\216\169"
+    vu265.Text = ""
     vu265.TextColor3 = Color3.fromRGB(0, 0, 0)
     vu265.TextScaled = true
     vu265.TextSize = 14
@@ -1613,7 +1612,7 @@ else
     vu267.Position = UDim2.new(0, 25, 0, 150)
     vu267.Size = UDim2.new(0, 150, 0, 30)
     vu267.Font = Enum.Font.Oswald
-    vu267.Text = "\239\191\189\217\132\217\134\217\130"
+    vu267.Text = ""
     vu267.TextColor3 = Color3.fromRGB(0, 0, 0)
     vu267.TextScaled = true
     vu267.TextSize = 14
@@ -1627,7 +1626,7 @@ else
     vu268.Position = UDim2.new(0, 25, 0, 350)
     vu268.Size = UDim2.new(0, 150, 0, 30)
     vu268.Font = Enum.Font.Oswald
-    vu268.Text = "\239\191\189\217\133\216\167\216\185"
+    vu268.Text = ""
     vu268.TextColor3 = Color3.fromRGB(0, 0, 0)
     vu268.TextScaled = true
     vu268.TextSize = 14
@@ -1641,7 +1640,7 @@ else
     vu269.Position = UDim2.new(0, 210, 0, 200)
     vu269.Size = UDim2.new(0, 150, 0, 30)
     vu269.Font = Enum.Font.Oswald
-    vu269.Text = "\239\191\189\216\186\216\170\216\181\216\167\216\168"
+    vu269.Text = ""
     vu269.TextColor3 = Color3.fromRGB(0, 0, 0)
     vu269.TextScaled = true
     vu269.TextSize = 14
@@ -1655,7 +1654,7 @@ else
     v271.Position = UDim2.new(0, 25, 0, 400)
     v271.Size = UDim2.new(0, 150, 0, 30)
     v271.Font = Enum.Font.Oswald
-    v271.Text = "\239\191\189\217\134\217\130\217\132"
+    v271.Text = ""
     v271.TextColor3 = Color3.fromRGB(0, 0, 0)
     v271.TextScaled = true
     v271.TextSize = 14
@@ -1669,7 +1668,7 @@ else
     vu270.Position = UDim2.new(0, 210, 0, 350)
     vu270.Size = UDim2.new(0, 150, 0, 30)
     vu270.Font = Enum.Font.Oswald
-    vu270.Text = "\239\191\189\217\130\217\132\217\138\216\175 \216\167\217\132\217\131\217\132\216\167\217\133"
+    vu270.Text = ""
     vu270.TextColor3 = Color3.fromRGB(0, 0, 0)
     vu270.TextScaled = true
     vu270.TextSize = 14
@@ -1683,7 +1682,7 @@ else
     vu272.Position = UDim2.new(0, 25, 0, 300)
     vu272.Size = UDim2.new(0, 150, 0, 30)
     vu272.Font = Enum.Font.Oswald
-    vu272.Text = "\239\191\189\217\132\217\136\216\179 \217\129\217\138 \216\177\216\167\216\179\217\135"
+    vu272.Text = ""
     vu272.TextColor3 = Color3.fromRGB(0, 0, 0)
     vu272.TextScaled = true
     vu272.TextSize = 14
@@ -1697,7 +1696,7 @@ else
     vu273.Position = UDim2.new(0, 210, 0, 250)
     vu273.Size = UDim2.new(0, 150, 0, 30)
     vu273.Font = Enum.Font.Oswald
-    vu273.Text = "\239\191\189\217\133\216\181"
+    vu273.Text = ""
     vu273.TextColor3 = Color3.fromRGB(0, 0, 0)
     vu273.TextScaled = true
     vu273.TextSize = 14
@@ -1711,7 +1710,7 @@ else
     vu274.Position = UDim2.new(0, 210, 0, 300)
     vu274.Size = UDim2.new(0, 150, 0, 30)
     vu274.Font = Enum.Font.Oswald
-    vu274.Text = "\239\191\189\217\130\217\138\216\168\216\169 \216\184\217\135\216\177"
+    vu274.Text = ""
     vu274.TextColor3 = Color3.fromRGB(0, 0, 0)
     vu274.TextScaled = true
     vu274.TextSize = 14
@@ -1725,7 +1724,7 @@ else
     vu275.Position = UDim2.new(0, 25, 0, 250)
     vu275.Size = UDim2.new(0, 150, 0, 30)
     vu275.Font = Enum.Font.Oswald
-    vu275.Text = "\239\191\189\217\136\217\135\216\167 \216\185\217\132\217\138\217\135"
+    vu275.Text = ""
     vu275.TextColor3 = Color3.fromRGB(0, 0, 0)
     vu275.TextScaled = true
     vu275.TextSize = 14
@@ -1777,7 +1776,7 @@ else
     v242.Font = Enum.Font.SourceSans
     v242.TextColor3 = Color3.fromRGB(vu31, vu32, vu33)
     v242.TextSize = 42
-    v242.Text = "\239\191\189\216\177\216\172\217\137 \216\167\216\174\216\170\217\138\216\167\216\177 \217\134\217\136\216\185 \216\167\217\132\216\167\217\134\217\133\217\138\216\180\217\134 \n>_<"
+    v242.Text = ""
     v242.TextWrapped = true
     v242.TextXAlignment = Enum.TextXAlignment.Center
     v242.TextYAlignment = Enum.TextYAlignment.Top
