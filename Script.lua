@@ -317,7 +317,7 @@ else
             if v90 == " " then
                 table.insert(v91,"")
             else
-                table.insert(v91, "\239\191\189" .. v90 .. "\239\191\189")
+                table.insert(v91, "" .. v90 .. "")
             end
         end
         if not v87 then
@@ -346,7 +346,7 @@ else
                     getgenv().online = tostring(v98)
                 end
             end
-            getgenv().VR7.Background.Home_Section.Announce_Label_Frame.Announce_Label.Text = "\239\191\189\217\133\217\138\216\185 \216\167\217\132\216\173\217\130\217\136\217\130 \217\133\216\173\217\129\217\136\216\184\216\169 \217\132\216\179\217\138\216\177\217\129\216\177 VR7\n\216\167\217\132\217\133\216\183\217\136\216\177\217\138\217\134 \216\186\217\138\216\177 \217\133\216\179\216\164\217\136\217\132\217\138\217\134 \216\185\217\134 \216\179\217\136\216\161 \216\167\217\132\216\167\216\179\216\170\216\174\216\175\216\167\217\133.\n\n\217\134\216\170\217\133\217\134\217\137 \216\167\217\134 \217\138\216\185\216\172\216\168\217\131 \216\167\217\132\216\179\217\131\216\177\216\168\216\170." .. "\n\n" .. tostring("\239\191\189\217\132\217\133\216\179\216\170\216\174\216\175\217\133\217\138\217\134: " .. getgenv().online .. " " .. "\239\191\189\216\179\216\170\216\174\216\175\217\133 \216\167\217\136\217\134\217\132\216\167\217\138\217\134" .. utf8.char(129310, 127995))
+            getgenv().TRX.Background.Home_Section.Announce_Label_Frame.Announce_Label.Text = "." .. "\n\n" .. tostring(": " .. getgenv().online .. " " .. "" .. utf8.char())
         end)
     end
     function Send(p99)
@@ -411,9 +411,9 @@ else
     function Execute(p106)
         if GetRank() and GetRank() ~= "Not Enabled" then
             game:GetService("ReplicatedStorage"):WaitForChild("HDAdminHDClient"):WaitForChild("Signals"):WaitForChild("RequestCommandSilent"):InvokeServer(p106)
-            SendNotify("System VR7", "Executed " .. command, 5)
+            SendNotify("System TRX", "Executed " .. command, 5)
         else
-            SendNotify("System VR7", "\239\191\189\217\132\216\167\216\179\217\129 \216\167\217\132\217\133\216\167\216\168 \216\186\217\138\216\177 \217\133\216\175\216\185\217\136\217\133", 5)
+            SendNotify("System TRX", "", 5)
         end
     end
     function RandomChar()
@@ -471,7 +471,7 @@ else
             v122 = v122 + 1
             local v124 = GetSofa()
             if not v124 then
-                SendNotify("System VR7", "\239\191\189\216\173\216\170\216\167\216\172 \217\131\217\134\216\168\216\169 \216\173\216\170\216\167 \216\170\217\130\216\175\216\177 \216\170\216\179\216\173\216\168", 5)
+                SendNotify("System TRX", "", 5)
                 break
             end
             local v125 = nil
@@ -7993,7 +7993,7 @@ else
             end
         end
     end)
-    setclipboard("https://discord.gg/vr7")
+    setclipboard("TRX")
     spawn(function()
         while true do
             local v1065 = request
